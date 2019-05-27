@@ -1,0 +1,23 @@
+.beer-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .beer {
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    border:1px solid transparent;
+    text-decoration: none;
+    color: #000;
+
+    img {
+      height: 10rem;
+      width: auto;
+    }
+
+    &:hover {
+      border:1px solid #000000;
+    }
+  }
+}

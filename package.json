@@ -1,0 +1,47 @@
+{
+  "name": "beers",
+  "version": "1.0.0",
+  "description": "Overstock test",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.5",
+    "postcss-loader": "^3.0.0",
+    "precss": "^3.1.2",
+    "prop-types": "^15.6.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": " <Thales Andrade> (thalesandrade.com)",
+  "license": "MIT"
+}

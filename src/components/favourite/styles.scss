@@ -1,0 +1,9 @@
+.beer-list.beer-list--favourites {
+  .beer {
+    border: none !important;
+
+    &:hover {
+      border: none !important;
+    }
+  }
+}
